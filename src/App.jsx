@@ -1,14 +1,27 @@
 import React, { Component } from 'react';
+import Experience from './Components/Experience.jsx';
 
 class App extends Component {
   render() {
+    const workExperience = {
+      institution : {name : 'Loxon Solutions', url : 'https://www.loxon.eu/' , location : 'Budapest, Hungary'},
+      position : 'Junior Software Developer',
+      timeInterval : 'Feb. 2017 - Feb. 2018', //  ['Feb. 2017', 'Feb. 2018'],
+      details : [              
+        'Used Java, SQL, PL/SQL, Hibernate, ICEFaces, HTML and CSS to implement, test and debug financial software',
+        'Worked independently and as part of a team.',
+        'Made minor modifications in Maven POMs, configurated Jenkins build, set up Cron Scheduler',
+        'Participated in project meetings and code reviews',
+        'Gained much experience, while having a great time'
+      ]
+    }
     return (
       <div >
         <h1 className="center">Gergely Juhasz</h1>
         <div className="contact-info">
-          <span className="fa fa-mobile fa-lg"><span></span>&nbsp1&nbsp 587-228-8564</span>
-          <span className="fa fa-home fa-lg"><span>&nbsp Calgary </span></span>
-          <span className="fa fa-envelope fa-lg"><span></span>&nbsp gergelygjuhasz@gmail.com</span>
+          <span className="fa fa-mobile fa-lg"><span></span>  587-228-8564</span>
+          <span className="fa fa-home fa-lg"><span>  Calgary </span></span>
+          <span className="fa fa-envelope fa-lg"><span></span>  gergelygjuhasz@gmail.com</span>
         </div>
 
         <p>
@@ -23,19 +36,8 @@ class App extends Component {
         </p>
         <p>
           <h2 className="center"> Relevant Experience</h2>
-          <div className="experience">
-            <h3 className="title"> Junior Software Developer<span className="dateInterval"> Feb. 2017 - Feb. 2018</span></h3>
-            <h4>Loxon Solutions, Budapest, Hungary</h4>
+          <Experience experience={workExperience} />
 
-            <ul>
-              <li>Used Java, SQL, PL/SQL, Hibernate, ICEFaces, HTML and CSS to implement, test and debug financial software</li>
-              <li>Worked independently and as part of a team.</li>
-              <li>Made minor modifications in Maven POMs, configurated Jenkins build, set up Cron Scheduler</li>
-              <li>Participated in project meetings and code reviews</li>
-              <li>Gained much experience, while having a great time</li>
-
-            </ul>
-          </div>
           <div className="experience">
             <h3 className="title"> React.js hackathon  group <span className="dateInterval"> Jan. 2019 - Present</span></h3>
             <h4>Software Developers Learning Together - Meetup, Calgary, Canada</h4>
