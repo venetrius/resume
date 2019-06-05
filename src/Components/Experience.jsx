@@ -8,18 +8,15 @@ class Experience extends Component {
       timeInterval : ['Feb. 2017', 'Feb. 2018'] // 'Feb. 2017 - Feb. 2018'
 
     }
-    const {institution, position, timeInterval, details} = this.props.experience;
-    console.log(this.props, institution, position,timeInterval);
-
+    const {organization, topic, timeInterval, details} = this.props.experience;
+    const showDetails =  Array.isArray(details) ? (<ul>{details.map(item => <li> {item} </li>)}</ul>) 
+      : (details.data.map(item => <span className="skill">  {item}  </span>)) 
     return (
       <div className="experience">
-      <h3 className="title"> {position} <span className="dateInterval"> {timeInterval}</span></h3>
-      <h4><a href={institution.url}> {institution.name}</a>, Budapest, Hungary</h4>
-
-      <ul>
-        {details.map(item => <li> {item} </li>)}
-      </ul>
-    </div>
+        <h5 className="title"> {topic} <span className="dateInterval"> {timeInterval}</span></h5>
+        <h6><a href={organization.url}> {organization.name}</a>, {organization.location}</h6>
+        {showDetails}     
+      </div>
     )
   }
 }
