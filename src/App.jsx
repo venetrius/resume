@@ -14,7 +14,7 @@ class App extends Component {
           <span className="fa fa-envelope fa-lg"><span></span>  gergelygjuhasz@gmail.com</span>
         </div>
 
-        <p>
+        <div>
           <h2 className="center">Summary</h2>
           <ul>
             <li>Core proficiencies include JavaScript, Java 8 and SQL</li>
@@ -23,20 +23,20 @@ class App extends Component {
             <li>Quick learner as demonstrated by quick improvements at the previous workplace</li>
 
           </ul>
-        </p>
+        </div>
 
         <h2> Skills</h2>
-        {data.skills.map(skill => <Skill data={skill} />)}
+        {data.skills.map((skill, index) => <Skill key={'skill' +index} data={skill} />)}
 
-        <p>
+        <div>
           <h2 className="center"> Relevant Experience</h2>
-          {data.workExperience.map(item => <Experience  experience={item} />)}  
-        </p>
+          {data.workExperience.map((item, index) => <Experience key={'exp' +index} experience={item} />)}  
+        </div>
 
-        <p>
-          <h2 class="center"> Education</h2>
-          {data.education.map(item => <Experience  experience={item} />)}        
-        </p>
+        <div>
+          <h2 className="center"> Education</h2>
+          {data.education.map((item, index) => <Experience key={'ed' +index} experience={item} />)}        
+        </div>
       </div>
     );
   }
