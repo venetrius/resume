@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Experience from './Components/Experience.jsx';
 import Skill from './Components/Skill.jsx'
 import data from './dummydata.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMobile, faHome, faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
 class App extends Component {
   render() {
@@ -9,9 +11,9 @@ class App extends Component {
       <div >
         <h1 className="center">Gergely Juhasz</h1>
         <div className="contact-info">
-          <span className="fa fa-mobile fa-lg"><span></span>  587-228-8564</span>
-          <span className="fa fa-home fa-lg"><span>  Calgary </span></span>
-          <span className="fa fa-envelope fa-lg"><span></span>  gergelygjuhasz@gmail.com</span>
+          <FontAwesomeIcon icon={faMobile}/><span>  587-228-8564</span>
+          <FontAwesomeIcon icon={faHome}/><span>  Calgary </span>
+          <FontAwesomeIcon icon={faMailBulk}/><span>  gergelygjuhasz@gmail.com</span>
         </div>
 
         <div>
