@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Experience from './Components/Experience.jsx';
 import Skill from './Components/Skill.jsx'
+import Project from './Components/Project.jsx'
 import data from './dummydata.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobile, faHome, faMailBulk } from '@fortawesome/free-solid-svg-icons'
@@ -33,6 +34,11 @@ class App extends Component {
         <div>
           <h2 className="center"> Relevant Experience</h2>
           {data.workExperience.map((item, index) => <Experience key={'exp' +index} experience={item} />)}  
+        </div>
+
+        <div>
+          <h2 className="center"> Projects</h2>
+          {data.projects.map((item, index) => <Project key={'exp' +index} project={item} />)}  
         </div>
 
         <div>

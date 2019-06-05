@@ -1,4 +1,6 @@
 import React from 'react';
+const me = { 	name : 'Gergely Juhasz', 	gitProfile : 'https://github.com/venetrius'};
+
 const data = {
 	skills : ['Java', 'SQL ', 'Python ', 'PL/SQL ', 'HTTP', 'XHTML', 'JavaScript', 'CSS', 'Jenkins', 'IntelliJ', 'Eclipse ', 'OOP','JIRA ', 'Oracle Database Server', 'ERP ', 'Linux ', 'Cygwin', 'XML', 'EJB', 'JPA ', 'Hibernate', 'ICEfaces', 'Maven', 'GIT', 'SVN', 'Oracle Weblogic Server'],
 	workExperience : [
@@ -61,7 +63,29 @@ const data = {
 				]
 			}
 		}
+	],
+	projects : [
+		{
+			timeInterval : 'Sept. 2016 - Jan. 2019',
+			topic : 'MappApp - Group Midterm Project at LHL',
+			stack : ['Node.js', 'Express.js', 'PostgreSQL', 'Knex.js', 'Jquery', 'AJAX'],
+			authors : [
+				{
+					name : 'Britta Jorgenson',
+					gitProfile : 'https://github.com/BJorgen'
+				},
+				{
+					name : 'Gaganpreet pandher',
+					gitProfile : 'https://github.com/Gaganpandher52'
+				},
+				me
+			],
+			description : 'Create, view and modify maps, upload imagies, like content, and view your profile ',
+			gitrepo : 'https://github.com/BJorgen/map_app',
+			url : 'https://maaapapp.herokuapp.com'
+		}
 	]
+
 }
 
 export default  data;
