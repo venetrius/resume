@@ -2,7 +2,9 @@ import React from 'react';
 const me = { 	name : 'Gergely Juhasz', 	gitProfile : 'https://github.com/venetrius'};
 
 const data = {
-	skills : ['Java', 'SQL ', 'Python ', 'PL/SQL ', 'HTTP', 'XHTML', 'JavaScript', 'CSS', 'Jenkins', 'IntelliJ', 'Eclipse ', 'OOP','JIRA ', 'Oracle Database Server', 'ERP ', 'Linux ', 'Cygwin', 'XML', 'EJB', 'JPA ', 'Hibernate', 'ICEfaces', 'Maven', 'GIT', 'SVN', 'Oracle Weblogic Server'],
+	skills : ['Java', 'JavaScript', ' SQL (MongoDB, PostgreSQL, OracleSQL, PL/SQ)', 'Node.js (Express.js, Knex.js)', 'React.js', 'Python ', 
+		'HTTP', 'REST', 'CSS', 'Version Control (GIT, Tortoise SVN)' , 'OOP','JIRA ', 'OS: Windows, Linux',
+		'IDE (VS Code, Sublime, IntelliJ, Eclipse)'],
 	workExperience : [
 		{
 			organization : {name : 'Loxon Solutions', url : 'https://www.loxon.eu/' , location : 'Budapest, Hungary'},
@@ -50,7 +52,6 @@ const data = {
 		},
 		{
 			organization : {name : 'Coursera', url : 'https://www.coursera.org' , location : 'Online'},
-			timeInterval : 'Sept. 2016 - Jan. 2019',
 			topic : 'Online courses in machine learning',
 			details : {
 				type : 'bullets',
@@ -66,7 +67,7 @@ const data = {
 	],
 	projects : [
 		{
-			timeInterval : 'Sept. 2016 - Jan. 2019',
+			timeInterval : 'May. 2019',
 			topic : 'MappApp - Group Midterm Project at LHL',
 			stack : ['Node.js', 'Express.js', 'PostgreSQL', 'Knex.js', 'Jquery', 'AJAX'],
 			authors : [
@@ -83,6 +84,13 @@ const data = {
 			description : 'Create, view and modify maps, upload imagies, like content, and view your profile ',
 			gitrepo : 'https://github.com/BJorgen/map_app',
 			url : 'https://maaapapp.herokuapp.com'
+		},
+		{
+			timeInterval : 'May. 2019',
+			topic : 'Tweeter - Project at LHL',
+			stack : ['Node.js', 'Express.js', 'MongoDB', 'Jquery', 'AJAX'],
+			description : 'Tweeter is a simple, single-page Twitter clone.',
+			gitrepo : 'https://github.com/venetrius/tweeter'
 		}
 	]
 

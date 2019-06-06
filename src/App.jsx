@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div >
-        <h1 className="center">Gergely Juhasz</h1>
+        <h1 >Gergely Juhasz</h1>
         <div className="contact-info">
           <FontAwesomeIcon icon={faMobile}/><span>  587-228-8564</span>
           <FontAwesomeIcon icon={faHome}/><span>  Calgary </span>
@@ -18,7 +18,7 @@ class App extends Component {
         </div>
 
         <div>
-          <h2 className="center">Summary</h2>
+          <h2 >Summary</h2>
           <ul>
             <li>Core proficiencies include JavaScript, Java 8 and SQL</li>
             <li>A growth mindset enjoys delving into highly technical problems</li>
@@ -32,17 +32,17 @@ class App extends Component {
         {data.skills.map((skill, index) => <Skill key={'skill' +index} data={skill} />)}
 
         <div>
-          <h2 className="center"> Relevant Experience</h2>
+          <h2 > Relevant Experience</h2>
           {data.workExperience.map((item, index) => <Experience key={'exp' +index} experience={item} />)}  
         </div>
 
         <div>
-          <h2 className="center"> Projects</h2>
+          <h2 > Projects</h2>
           {data.projects.map((item, index) => <Project key={'exp' +index} project={item} />)}  
         </div>
 
         <div>
-          <h2 className="center"> Education</h2>
+          <h2 > Education</h2>
           {data.education.map((item, index) => <Experience key={'ed' +index} experience={item} />)}        
         </div>
       </div>

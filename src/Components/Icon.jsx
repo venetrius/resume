@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Icon (props)  {
-   console.log(props);
    if(props.url){
      return <a title={props.url} href={props.url}><FontAwesomeIcon icon={props.icon}/></a>
    }
