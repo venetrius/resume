@@ -3,7 +3,7 @@ import Skill from './Skill.jsx';
 
 class Experience extends Component {
   render() {
-    const {organization, topic, timeInterval, details} = this.props.experience;
+    const {organization, topic, timeInterval, details} = this.props.data;
     const showDetails =  Array.isArray(details) ? (<ul>{details.map(item => <li> {item} </li>)}</ul>) 
       : (details.data.map(item => <Skill className="skill" data={item}/>)) 
     return (

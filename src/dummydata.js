@@ -1,11 +1,20 @@
 import React from 'react';
 const me = { 	name : 'Gergely Juhasz', 	gitProfile : 'https://github.com/venetrius'};
 
+
+
 const data = {
-	skills : ['Java', 'JavaScript', ' SQL (MongoDB, PostgreSQL, OracleSQL, PL/SQ)', 'Node.js (Express.js, Knex.js)', 'React.js', 'Python ', 
+	_entryTypes : {Skills : 'skill', Summary : 'summary', 'Work Experience' : 'experience', Education : 'experience', Projects : 'project'},
+	_personalInfo : {name : 'Gergely Juhasz', phone : '587-228-8564', adress : 'Calgary', email : 'gergelygjuhasz@gmail.com'},
+	Summary : [{ Summary : [
+		'Core proficiencies include JavaScript, Java 8 and SQL',
+		'A growth mindset enjoys delving into highly technical problems',
+		'In a beggining of a new career looking for experience']
+	}],
+	Skills : ['Java', 'JavaScript', ' SQL (MongoDB, PostgreSQL, OracleSQL, PL/SQ)', 'Node.js (Express.js, Knex.js)', 'React.js', 'Python ', 
 		'HTTP', 'REST', 'CSS', 'Version Control (GIT, Tortoise SVN)' , 'OOP','JIRA ', 'OS: Windows, Linux',
 		'IDE (VS Code, Sublime, IntelliJ, Eclipse)'],
-	workExperience : [
+	'Work Experience' : [
 		{
 			organization : {name : 'Loxon Solutions', url : 'https://www.loxon.eu/' , location : 'Budapest, Hungary'},
 			topic : 'Junior Software Developer',
@@ -19,7 +28,35 @@ const data = {
 			]
 		}
 	],
-	education : [
+	Projects : [
+		{
+			timeInterval : 'May. 2019',
+			topic : 'MappApp - Group Midterm Project at LHL',
+			stack : ['Node.js', 'Express.js', 'PostgreSQL', 'Knex.js', 'Jquery', 'AJAX'],
+			authors : [
+				{
+					name : 'Britta Jorgenson',
+					gitProfile : 'https://github.com/BJorgen'
+				},
+				{
+					name : 'Gaganpreet pandher',
+					gitProfile : 'https://github.com/Gaganpandher52'
+				},
+				me
+			],
+			description : 'Create, view and modify maps, upload imagies, like content, and view your profile ',
+			gitrepo : 'https://github.com/BJorgen/map_app',
+			url : 'https://maaapapp.herokuapp.com'
+		},
+		{
+			timeInterval : 'May. 2019',
+			topic : 'Tweeter - Project at LHL',
+			stack : ['Node.js', 'Express.js', 'MongoDB', 'Jquery', 'AJAX'],
+			description : 'Tweeter is a simple, single-page Twitter clone.',
+			gitrepo : 'https://github.com/venetrius/tweeter'
+		}
+	],
+	Education : [
 		{
 			organization : {name : 'Lighthouse Labs', url : 'https://lighthouselabs.ca/web-bootcamp' , location : 'Calgary, Canada'},
 			timeInterval : 'May 2019 - July 2019',
@@ -64,35 +101,8 @@ const data = {
 				]
 			}
 		}
-	],
-	projects : [
-		{
-			timeInterval : 'May. 2019',
-			topic : 'MappApp - Group Midterm Project at LHL',
-			stack : ['Node.js', 'Express.js', 'PostgreSQL', 'Knex.js', 'Jquery', 'AJAX'],
-			authors : [
-				{
-					name : 'Britta Jorgenson',
-					gitProfile : 'https://github.com/BJorgen'
-				},
-				{
-					name : 'Gaganpreet pandher',
-					gitProfile : 'https://github.com/Gaganpandher52'
-				},
-				me
-			],
-			description : 'Create, view and modify maps, upload imagies, like content, and view your profile ',
-			gitrepo : 'https://github.com/BJorgen/map_app',
-			url : 'https://maaapapp.herokuapp.com'
-		},
-		{
-			timeInterval : 'May. 2019',
-			topic : 'Tweeter - Project at LHL',
-			stack : ['Node.js', 'Express.js', 'MongoDB', 'Jquery', 'AJAX'],
-			description : 'Tweeter is a simple, single-page Twitter clone.',
-			gitrepo : 'https://github.com/venetrius/tweeter'
-		}
 	]
+
 
 }
 

@@ -18,7 +18,7 @@ function createAuthors (authors){
 }
 
  function Project (props)  {
-  const {topic, timeInterval, authors, stack, description, gitrepo, url} = props.project;
+  const {topic, timeInterval, authors, stack, description, gitrepo, url} = props.data;
   const viewAuthors = createAuthors(authors);
   const gitRef =  <Icon url={gitrepo} icon={faGithub}/>;
   const appRef = url ? <Icon url={url} icon={faLaptop}/> : '';
