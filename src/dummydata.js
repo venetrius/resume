@@ -4,6 +4,7 @@ const me = { 	name : 'Gergely Juhasz', 	gitProfile : 'https://github.com/venetri
 
 
 const data = {
+	_WsideSkill : true,
 	_entryTypes : {Skills : 'skill', Summary : 'summary', 'Work Experience' : 'experience', Education : 'experience', Projects : 'project'},
 	_personalInfo : {name : 'Gergely Juhasz', phone : '587-228-8564', adress : 'Calgary', email : 'gergelygjuhasz@gmail.com'},
 	Summary : [{ Summary : [
@@ -12,8 +13,8 @@ const data = {
 		'In a beggining of a new career looking for experience']
 	}],
 	Skills : ['Java', 'JavaScript', ' SQL (MongoDB, PostgreSQL, OracleSQL, PL/SQ)', 'Node.js (Express.js, Knex.js)', 'React.js', 'Python ', 
-		'HTTP', 'REST', 'CSS', 'Version Control (GIT, Tortoise SVN)' , 'OOP','JIRA ', 'OS: Windows, Linux',
-		'IDE (VS Code, Sublime, IntelliJ, Eclipse)'],
+		'HTTP', 'REST', 'CSS', 'Version Control (GIT, Tortoise SVN)' , 'OOP','JIRA ', 'OS (Windows, Linux)',
+		'IDE (VSCode, Sublime, IntelliJ, Eclipse)'],
 	'Work Experience' : [
 		{
 			organization : {name : 'Loxon Solutions', url : 'https://www.loxon.eu/' , location : 'Budapest, Hungary'},
@@ -95,7 +96,7 @@ const data = {
 				data : [	
 					<a href="https://www.coursera.org/account/accomplishments/certificate/YNC9PTGY77BB">Neural Networks and Deep Learning</a>,
 					<a href="https://www.coursera.org/account/accomplishments/certificate/CENMDKNAG39T">Convolutional Neural Networks</a>,
-					<a href="https://www.coursera.org/account/accomplishments/certificate/J3LX3UAA9DGJ">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</a>,
+					<a href="https://www.coursera.org/account/accomplishments/certificate/J3LX3UAA9DGJ">Improving Deep Neural Networks</a>,
 					<a href="https://www.coursera.org/account/accomplishments/certificate/8KALZMQ6SS49">Structuring Machine Learning Projects</a>,
 					<a href="https://www.coursera.org/account/accomplishments/certificate/GMNXFR7Z2BF5">Machine Learning</a>		
 				]
