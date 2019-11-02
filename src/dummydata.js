@@ -5,7 +5,9 @@ const me = { 	name : 'Gergely Juhasz', 	gitProfile : 'https://github.com/venetri
 
 const data = {
 	_WsideSkill : false,
-	_entryTypes : {Skills : 'skill', Summary : 'summary', 'Work Experience' : 'experience', Education : 'experience', Projects : 'project'},
+	_entryTypes : 
+		{Skills : 'skill', Summary : 'summary', 'Work Experience' : 'experience',
+							 Education : 'experience', 'Volunteer Experience' : 'experience', Projects : 'project'},
 	_personalInfo : {
 		name : 'Gergely Juhasz',
 		phone : '587-228-8564',
@@ -15,12 +17,21 @@ const data = {
 		linkdin : 'https://www.linkedin.com/in/gergelyg-juhasz'
 	},
 	Summary : [{ Summary : [
-		"I am a fullstack developer with core proficiencies in JavaScript, Java8, SQL and more with a growth mindset. I enjoy delving into highly technical problems and I am looking for new experience to further my career in web development."]
+		"I am a full stack developer with core proficiencies in JavaScript, Java8, and SQL. I enjoy delving into highly technical problems and my next goal is to enrich my knowledge in web development."]
 	}],
 	Skills : ['Java', 'JavaScript', ' DataBase (MongoDB, PostgreSQL, OracleSQL, PL/SQL)', 'Node.js (Express.js, Knex.js)', 'React.js', 'Python ',
 		'HTTP', 'REST', 'Version Control (GIT, Tortoise SVN)','Ruby', 'Rails', 'ActiveRecord', ' Hibernate', 'CSS', 'OOP','JIRA ', 'OS (Windows, Linux)',
 		'IDE (VSCode, Sublime, IntelliJ, Eclipse)'],
 	'Work Experience' : [
+		{
+			organization : {name : 'Payload', url : 'https://payload.com/' , location : 'Calgary, Canada'},
+			topic : 'Software Developer',
+			timeInterval : 'July. 2019 - ', //  ['Feb. 2017', 'Feb. 2018'],
+			details : [
+				'Technologies include: Node.js, Ruby on Rails, React.js, VB.Net, PSQL, MSSQL, Git ',
+				'Supporting an old product in VB.Net while working on a new one in with AWS Lambda '
+			]
+		},
 		{
 			organization : {name : 'Loxon Solutions', url : 'https://www.loxon.eu/' , location : 'Budapest, Hungary'},
 			topic : 'Junior Software Developer',
@@ -32,14 +43,36 @@ const data = {
 			]
 		}
 	],
+
+	'Volunteer Experience' : [
+		{
+			organization : {name : 'Solidair met India', url : 'https://www.solidairmetindia.nl/' , location : 'Ghosi, India'},
+			topic : 'Volunteer Teacher',
+			timeInterval : 'September. 2012 - December 2012.', //  ['Feb. 2017', 'Feb. 2018'],
+			details : [
+				'Teaching Science, Math and Computer Science at St. Norbert School'
+			]
+		}
+	],
 	Projects : [
 			{
 			timeInterval : 'June. 2019',
-			topic : 'Jungle - Project at LHL',
-			stack : ['Ruby', 'Rails', 'REST', 'PostgreSQL', 'Stripe', 'AWS'],
-			description : 'A mini e-commerce application built with Rails 4.2 ',
-			gitrepo : 'https://github.com/venetrius/jungle-rails',
-			url : 'http://jungle-env.qmrwpeuu3p.ca-central-1.elasticbeanstalk.com/'
+			topic : 'Smart Links - Final Project at LHL',
+			stack : ['Node.js', 'React.js', 'Socket.io', 'PostgreSQL', 'OAuth'],
+			description : 'An interest maching app for professional events  (designed for mobile)',
+			gitrepo : 'https://github.com/BJorgen/card_share_client',
+			url : 'https://smart-linxz.herokuapp.com/',
+			authors : [
+				{
+					name : 'Britta Jorgenson',
+					gitProfile : 'https://github.com/BJorgen'
+				},
+				{
+					name : 'Christian Pfeiffer',
+					gitProfile : 'https://github.com/cpfeiffer325'
+				},
+				me
+			],
 		},
 		{
 			timeInterval : 'May. 2019',
@@ -51,7 +84,7 @@ const data = {
 					gitProfile : 'https://github.com/BJorgen'
 				},
 				{
-					name : 'Gaganpreet pandher',
+					name : 'Gaganpreet Pandher',
 					gitProfile : 'https://github.com/Gaganpandher52'
 				},
 				me
@@ -70,7 +103,7 @@ const data = {
 		{
 			timeInterval : 'March. 2019 - May. 2019',
 			topic : <a href="https://www.innovation4health.com/neuronexus"> Neuro Nexus — Innovation 4 Health </a>,
-		  stack : ['Arduino', 'Python'],
+			stack : ['Arduino', 'Python'],
 			description :
 			<div className="plain">
 				Our team <i> EEGaming </i>'s goal is to create a tool which can
