@@ -29,7 +29,7 @@ const data = {
 			timeInterval : 'July. 2019 - ', //  ['Feb. 2017', 'Feb. 2018'],
 			details : [
 				'Technologies include: Node.js, Ruby on Rails, React.js, VB.Net, PSQL, MSSQL, Git ',
-				'Supporting an old product in VB.Net while working on a new one in with AWS Lambda '
+				'Supporting an old product in VB.Net while working on a new one with Node.js and AWS Lambda '
 			]
 		},
 		{
