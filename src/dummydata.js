@@ -102,14 +102,14 @@ const data = {
 		},
 		{
 			timeInterval : 'March. 2019 - May. 2019',
-			topic : <a href="https://www.innovation4health.com/neuronexus"> Neuro Nexus — Innovation 4 Health </a>,
+			topic : <a target="blank" href="https://www.innovation4health.com/neuronexus"> Neuro Nexus — Innovation 4 Health </a>,
 			stack : ['Arduino', 'Python'],
 			description :
 			<div className="plain">
 				Our team <i> EEGaming </i>'s goal is to create a tool which can
 					help children with severe motor impairment to use a controller through a BCI.
 					For which we received the
-					<a href="https://www.innovation4health.com/neuronexus#block-yui_3_17_2_1_1558053349837_699345"> Peoples' Choice Award </a>.
+					<a target="blank" href="https://www.innovation4health.com/neuronexus#block-yui_3_17_2_1_1558053349837_699345"> Peoples' Choice Award </a>.
 			</div>,
 			gitrepo : 'https://gist.github.com/venetrius/66be391c4c57f85b70bb7f7f47812df3'
 		}
@@ -150,11 +150,11 @@ const data = {
 			details : {
 				type : 'bullets',
 				data : [
-					<a href="https://www.coursera.org/account/accomplishments/certificate/YNC9PTGY77BB">Neural Networks and Deep Learning</a>,
-					<a href="https://www.coursera.org/account/accomplishments/certificate/CENMDKNAG39T">Convolutional Neural Networks</a>,
-					<a href="https://www.coursera.org/account/accomplishments/certificate/J3LX3UAA9DGJ">Improving Deep Neural Networks</a>,
-					<a href="https://www.coursera.org/account/accomplishments/certificate/8KALZMQ6SS49">Structuring Machine Learning Projects</a>,
-					<a href="https://www.coursera.org/account/accomplishments/certificate/GMNXFR7Z2BF5">Machine Learning</a>
+					<a target="blank" href="https://www.coursera.org/account/accomplishments/certificate/YNC9PTGY77BB">Neural Networks and Deep Learning</a>,
+					<a target="blank" href="https://www.coursera.org/account/accomplishments/certificate/CENMDKNAG39T">Convolutional Neural Networks</a>,
+					<a target="blank" href="https://www.coursera.org/account/accomplishments/certificate/J3LX3UAA9DGJ">Improving Deep Neural Networks</a>,
+					<a target="blank" href="https://www.coursera.org/account/accomplishments/certificate/8KALZMQ6SS49">Structuring Machine Learning Projects</a>,
+					<a target="blank" href="https://www.coursera.org/account/accomplishments/certificate/GMNXFR7Z2BF5">Machine Learning</a>
 				]
 			}
 		}

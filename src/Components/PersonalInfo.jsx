@@ -14,8 +14,8 @@ function last(arr){
           <FontAwesomeIcon icon={faMobile}/><span>  {phone}</span>
           <FontAwesomeIcon icon={faHome}/><span>  {adress} </span>
           <FontAwesomeIcon icon={faMailBulk}/><span>  {email}</span>
-          <a href={gitrepo}><FontAwesomeIcon icon={faGithub}/><span>  {last(gitrepo.split('/'))}</span></a>
-          <a href={linkdin}><FontAwesomeIcon icon={faLinkedin}/><span>  {last(linkdin.split('/'))}</span></a>
+          <a target="blank" href={gitrepo}><FontAwesomeIcon icon={faGithub}/><span>  {last(gitrepo.split('/'))}</span></a>
+          <a target="blank" href={linkdin}><FontAwesomeIcon icon={faLinkedin}/><span>  {last(linkdin.split('/'))}</span></a>
     </div>
   )
 }

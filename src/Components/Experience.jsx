@@ -9,7 +9,7 @@ class Experience extends Component {
     return (
       <div className="experience">
         <h5 className="title"> {topic} <span className="dateInterval"> {timeInterval}</span></h5>
-        <h6><a href={organization.url}> {organization.name}</a>, {organization.location}</h6>
+        <h6><a target="blank" href={organization.url}> {organization.name}</a>, {organization.location}</h6>
         {showDetails}     
       </div>
     )
