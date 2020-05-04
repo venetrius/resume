@@ -6,7 +6,7 @@ import Icon from './Icon.jsx';
 function createAuthors (authors){
   const viewAuthors = (authors && authors.length > 1) ? 
     authors.map(author => 
-      <span><a key={author.name} target="blank" href={author.gitProfile}>{author.name}</a></span>) 
+      <span><a key={author.name} target="blank" href={author.gitProfile}>{author.name+ '  '}</a></span>) 
     : '';
  const label = viewAuthors ? <label>Authors </label> : '';
  // {label} {authors}

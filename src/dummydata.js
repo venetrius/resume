@@ -19,17 +19,26 @@ const data = {
 	Summary : [{ Summary : [
 		"I am a full stack developer with core proficiencies in JavaScript, Java8, and SQL. I enjoy delving into highly technical problems and my next goal is to enrich my knowledge in web development."]
 	}],
-	Skills : ['Java', 'JavaScript', ' DataBase (MongoDB, PostgreSQL, OracleSQL, PL/SQL)', 'Node.js (Express.js, Knex.js)', 'React.js', 'Python ',
-		'HTTP', 'REST', 'Version Control (GIT, Tortoise SVN)','Ruby', 'Rails', 'ActiveRecord', ' Hibernate', 'CSS', 'OOP','JIRA ', 'OS (Windows, Linux)',
-		'IDE (VSCode, Sublime, IntelliJ, Eclipse)'],
+	Skills : ['JavaScript', ' Java', ' databases (PostgreSQL, MSSQL, DynamoDB, OracleSQL)', 'Node.js', 'React.js', 'Python ',
+		'Android', 'VisualBasic', 'REST', 'GIT', 'Cloud Computing (AWS, Heroku, AZURE)', 'Ruby', 'Rails', 'ActiveRecord', ' Hibernate', 'CSS', 'OOP','JIRA ', 'OS (Windows, Linux, MAC)',
+		'IDE (VSCode, IntelliJ, Eclipse)'],
 	'Work Experience' : [
+		{
+			organization : {name : 'Lighthouse Labs', url : 'https://www.lighthouselabs.ca/' , location : 'Calgary, Canada'},
+			topic : 'Mentor, Web development bootcamp, part time',
+			timeInterval : 'Dec. 2019 - current', //  ['Feb. 2017', 'Feb. 2018'],
+			details : [
+				'Every week I spend half a day to help the next generation of web-developers on their way to new technologies and professional problem-solving with the power of rubber ducks.'
+			]
+		},
 		{
 			organization : {name : 'Payload', url : 'https://payload.com/' , location : 'Calgary, Canada'},
 			topic : 'Software Developer',
-			timeInterval : 'July. 2019 - ', //  ['Feb. 2017', 'Feb. 2018'],
+			timeInterval : 'July. 2019 - May. 2020', //  ['Feb. 2017', 'Feb. 2018'],
 			details : [
-				'Technologies include: Node.js, Ruby on Rails, React.js, VB.Net, PSQL, MSSQL, Git ',
-				'Supporting an old product in VB.Net while working on a new one with Node.js and AWS Lambda '
+				'Working in an agile environment to revolutionize the logistic sector.',
+				'Writing, testing and debugging code in Node.js, React.js, VisualBasic, Ruby, Android and Visual Basic.',
+				'Using industry standard approaches: GIT, JIRA, CI, unit test, automation test, swagger documentation.'
 			]
 		},
 		{
@@ -108,8 +117,7 @@ const data = {
 			<div className="plain">
 				Our team <i> EEGaming </i>'s goal is to create a tool which can
 					help children with severe motor impairment to use a controller through a BCI.
-					For which we received the
-					<a target="blank" href="https://www.innovation4health.com/neuronexus#block-yui_3_17_2_1_1558053349837_699345"> Peoples' Choice Award </a>.
+					For which we have received the Peoples' Choice Award.
 			</div>,
 			gitrepo : 'https://gist.github.com/venetrius/66be391c4c57f85b70bb7f7f47812df3'
 		}
