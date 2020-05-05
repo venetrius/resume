@@ -26,7 +26,7 @@ const data = {
 		{
 			organization : {name : 'Lighthouse Labs', url : 'https://www.lighthouselabs.ca/' , location : 'Calgary, Canada'},
 			topic : 'Mentor, Web development bootcamp, part time',
-			timeInterval : 'Dec. 2019 - current', //  ['Feb. 2017', 'Feb. 2018'],
+			timeInterval : 'Dec. 2019 - Preset', //  ['Feb. 2017', 'Feb. 2018'],
 			details : [
 				'Every week I spend half a day to help the next generation of web-developers on their way to new technologies and professional problem-solving with the power of rubber ducks.'
 			]
