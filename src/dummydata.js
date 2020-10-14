@@ -5,7 +5,7 @@ const me = { 	name : 'Gergely Juhasz', 	gitProfile : 'https://github.com/venetri
 
 const data = {
 	_WsideSkill : false,
-	_entryTypes : 
+	_entryTypes :
 		{Skills : 'skill', Summary : 'summary', 'Work Experience' : 'experience',
 							 Education : 'experience', 'Volunteer Experience' : 'experience', Projects : 'project'},
 	_personalInfo : {
@@ -28,16 +28,16 @@ const data = {
 			topic : 'Mentor, Web development bootcamp, part time',
 			timeInterval : 'Dec. 2019 - Preset', //  ['Feb. 2017', 'Feb. 2018'],
 			details : [
-				'Every week I spend half a day to help the next generation of web-developers on their way to new technologies and professional problem-solving with the power of rubber ducks.'
+				'Every week I spend some time to help the next generation of web-developers on their way to new technologies and professional problem-solving with the power of rubber ducks.'
 			]
 		},
 		{
 			organization : {name : 'Payload', url : 'https://payload.com/' , location : 'Calgary, Canada'},
 			topic : 'Software Developer',
-			timeInterval : 'July. 2019 - May. 2020', //  ['Feb. 2017', 'Feb. 2018'],
+			timeInterval : 'July. 2019 - Present', //  ['Feb. 2017', 'Feb. 2018'],
 			details : [
 				'Working in an agile environment to revolutionize the logistic sector.',
-				'Writing, testing and debugging code in Node.js, React.js, VisualBasic, Ruby, Android and Visual Basic.',
+				'Writing, testing and debugging code in Node.js, React.js, VisualBasic, Ruby, Android, iOS and Visual Basic.',
 				'Using industry standard approaches: GIT, JIRA, CI, unit test, automation test, swagger documentation.'
 			]
 		},
