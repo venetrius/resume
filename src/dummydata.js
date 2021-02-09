@@ -17,28 +17,32 @@ const data = {
 		linkdin : 'https://www.linkedin.com/in/gergelyg-juhasz'
 	},
 	Summary : [{ Summary : [
-		"I am a full stack developer with core proficiencies in JavaScript, Java8, and SQL. I enjoy delving into highly technical problems and my next goal is to enrich my knowledge in web development."]
+		"I am an enthusiastic full-stack developer with core proficiencies in Node.js, React.js, Java 8, and SQL. I enjoy delving into highly technical problems while keeping in mind the big picture. My next goal is to enrich my knowledge in web development."]
 	}],
 	Skills : ['JavaScript', ' Java', ' databases (PostgreSQL, MSSQL, DynamoDB, OracleSQL)', 'Node.js', 'React.js', 'Python ',
 		'Android', 'VisualBasic', 'REST', 'GIT', 'Cloud Computing (AWS, Heroku, AZURE)', 'Ruby', 'Rails', 'ActiveRecord', ' Hibernate', 'CSS', 'OOP','JIRA ', 'OS (Windows, Linux, MAC)',
 		'IDE (VSCode, IntelliJ, Eclipse)'],
 	'Work Experience' : [
 		{
-			organization : {name : 'Lighthouse Labs', url : 'https://www.lighthouselabs.ca/' , location : 'Calgary, Canada'},
-			topic : 'Mentor, Web development bootcamp, part time',
-			timeInterval : 'Dec. 2019 - Preset', //  ['Feb. 2017', 'Feb. 2018'],
-			details : [
-				'Every week I spend some time to help the next generation of web-developers on their way to new technologies and professional problem-solving with the power of rubber ducks.'
-			]
-		},
-		{
 			organization : {name : 'Payload', url : 'https://payload.com/' , location : 'Calgary, Canada'},
 			topic : 'Software Developer',
-			timeInterval : 'July. 2019 - Present', //  ['Feb. 2017', 'Feb. 2018'],
+      timeInterval : 'July. 2019 - Present', //  ['Feb. 2017', 'Feb. 2018'],
 			details : [
-				'Working in an agile environment to revolutionize the logistic sector.',
-				'Writing, testing and debugging code in Node.js, React.js, VisualBasic, Ruby, Android, iOS and Visual Basic.',
-				'Using industry standard approaches: GIT, JIRA, CI, unit test, automation test, swagger documentation.'
+        'Working in an agile environment to revolutionize the logistics sector.',
+        'Taking part in sprint planning and feature estimation.',
+				'Writing, testing, and debugging code in Node.js, React.js, Ruby & Rails, Android, iOS, and Visual Basic.',
+        'Using industry-standard approaches: REST, GIT, JIRA, CI, unit test, automation test, swagger documentation.',
+        'Using Cloud Services such as Heroku, AWS, and Azure.'
+			]
+    },
+    {
+			organization : {name : 'Lighthouse Labs', url : 'https://www.lighthouselabs.ca/' , location : 'Calgary, Canada'},
+			topic : 'Mentor, Web development bootcamp, part time',
+			timeInterval : 'Dec. 2019 - May 2020', //  ['Feb. 2017', 'Feb. 2018'],
+			details : [
+        'Every week I spend some time to help the next generation of web-developers on their way to new technologies and professional problem-solving with the power of rubber ducks.',
+        'Took a break from mentoring due to the pandemic, planning pick up it again.'
+
 			]
 		},
 		{
@@ -64,6 +68,12 @@ const data = {
 		}
 	],
 	Projects : [
+      {
+        timeInterval : '2020 - Current',
+        url: 'https://www.meetup.com/Software-Developers-Learning-Together/',
+        topic : 'Co-hosting tech meet-up',
+        description: 'Co-hosting  tech meet-up Software Developers of Calgary'
+      },
 			{
 			timeInterval : 'June. 2019',
 			topic : 'Smart Links - Final Project at LHL',
@@ -129,8 +139,8 @@ const data = {
 			topic : 'Certificate - Full Stack Web Development',
 			details : [
 				'A 12 weeks long intensive course, 40+ hours / week, project focused',
-				'Main focus on: JavaScript, Node.js, SQL, React'
-			]
+        'Main focus on: JavaScript, Node.js, SQL, React'
+      ]
 		},
 				{
 			organization : {name : 'Braining Hub', url : 'https://braininghub.hu/junior-java-programozo-kepzes/' , location : 'Budapest, Hungary'},
